@@ -34,7 +34,7 @@ EOF
 
 5. Upload workload app
 ```bash
-git clone https://github.com/Azure-Samples/azure-cache-redis-samples
+git clone https://github.com/elias-rod/azure-cache-redis-sample/
 cd azure-cache-redis-samples/tutorial/connect-from-aks/ConnectFromAKS
 az acr build --image sample/connect-from-aks-sample:1.0 --registry eliasaksregistry --file Dockerfile .
 az aks update --name eliasaks --resource-group rg-elias-aks --attach-acr eliasaksregistry
