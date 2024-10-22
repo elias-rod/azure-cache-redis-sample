@@ -73,7 +73,7 @@ spec:
            value: "6380"
   restartPolicy: Never
 ```
-# Try
+## Try
 1. Create the pod
 `kubectl apply -f podspec.yaml`
 
